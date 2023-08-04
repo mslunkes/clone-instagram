@@ -1,0 +1,242 @@
+* {
+
+    margin: 0 auto;
+    background: #FAFAFA;
+    font-family: Segoe UI;
+
+
+}
+
+.main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box-superior {
+    width: 390px;
+    height: 664px;
+    flex-shrink: 0;
+}
+
+.container-under {
+    border-radius: 1px;
+    width: 350px;
+    height: 399.984px;
+}
+
+
+.container-under .logo {
+    width: 245px;
+    height: 86px;
+    margin-top: 36px;
+    margin-bottom: 15px;
+    display: flex;
+
+}
+
+
+.email {
+    width: 270px;
+    height: 38px;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    background: #FAFAFA;
+    margin-bottom: 6px;
+
+}
+
+.password {
+    width: 270px;
+    height: 38px;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    background: #FAFAFA;
+    margin-bottom: 14px;
+}
+
+.input-password {
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    background: #FAFAFA;
+}
+
+.button {
+    background-color: #0094f6ba;
+    width: 270px;
+    height: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-bottom: 18px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.OU {
+    display: flex;
+
+    width: 270px;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 26px;
+
+}
+
+.OU .ou-left {
+    width: 107.25px;
+    height: 1px;
+    flex-shrink: 0;
+
+}
+
+.OU .ou-medio {
+    color: #8E8E8E;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14.999px;
+    /* 115.38% */
+    text-transform: uppercase;
+}
+
+.OU .ou-right {
+    width: 107.25px;
+    height: 1px;
+    flex-shrink: 0;
+}
+
+.a {
+    display: flex;
+    width: 143.325px;
+    height: 16px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #385185;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+/*.review {
+    display: flex;
+    margin-bottom: 22px;
+}*/
+
+.review .login {
+    border-top: 29px;
+    color: #385185;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 128.571% */
+}
+
+.review .forgot {
+    border-top: 22px;
+    color: #00376B;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+}
+
+.dontaccount {
+    text-align: center;
+    margin-top: 79.5px;
+    margin-bottom: 68.5px;
+}
+
+.dontaccount .account {
+
+    text-decoration: none
+}
+
+.signup {
+    color: #0095F6;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+
+}
+
+.get-app {
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding-top: 11px;
+
+}
+
+.download-app {
+    display: flex;
+    gap: 8px;
+    margin-top: 21px;
+    border-left: 0px;
+    border-right: 0px;
+
+
+
+}
+
+
+.download-app .googleplay {
+    width: 134.281px;
+    height: 40px;
+
+
+}
+
+.download-app .microsoftstore {
+    width: 110.766px;
+    height: 40px;
+
+}
+
+.footer {
+    width: 358px;
+    height: 69px;
+}
+
+
+.sites {
+    
+    display: flex;
+    gap: 15.8px;
+    text-decoration: none;
+    text-decoration: #8E8E8E;
+    box-sizing: border-box;
+    
+}
+
+
+
+.copyright {
+    text-align: center;
+    display: inline-flex;
+}
