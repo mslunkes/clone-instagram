@@ -38,29 +38,41 @@
 
 }
 
-
 .email {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    justify-content: center;
     width: 270px;
     height: 38px;
-    justify-content: center;
+
+
+}
+
+.input-email {
+    margin-left: 60px;
+    margin-bottom: px;
+    padding: none;
     border-radius: 3px;
     border: 1px solid #DBDBDB;
     background: #FAFAFA;
-    margin-bottom: 6px;
+    outline: 0;
+    box-shadow: none;
+    border: 2px;
 
 }
 
 .password {
+    margin-bottom: 14px;
+    justify-content: center;
     width: 270px;
     height: 38px;
-    justify-content: center;
-    border-radius: 3px;
-    border: 1px solid #DBDBDB;
-    background: #FAFAFA;
-    margin-bottom: 14px;
+
 }
 
 .input-password {
+    margin-left: 60px;
+    margin-bottom: 14px;
+    padding: none;
     border-radius: 3px;
     border: 1px solid #DBDBDB;
     background: #FAFAFA;
@@ -135,22 +147,26 @@
     font-style: normal;
     font-weight: 700;
     line-height: 18px;
+
 }
 
-/*.review {
+.review {
     display: flex;
     margin-bottom: 22px;
-}*/
-
-.review .login {
-    border-top: 29px;
+    border: 0;
     color: #385185;
-    text-align: center;
-    font-size: 14px;
+    justify-content: space-between;
     font-style: normal;
-    font-weight: 700;
+}
+
+*/ .review .login {
+    margin: 29px;
+    color: #385185;
+    justify-content: center;
+    font-size: 14px;
     line-height: 18px;
-    /* 128.571% */
+    
+
 }
 
 .review .forgot {
@@ -161,7 +177,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
-    /* 133.333% */
+    border: 0;
 }
 
 .dontaccount {
@@ -199,7 +215,7 @@
     margin-top: 21px;
     border-left: 0px;
     border-right: 0px;
-
+    justify-content: center;
 
 
 }
@@ -208,8 +224,10 @@
 .download-app .googleplay {
     width: 134.281px;
     height: 40px;
+}
 
-
+.download-app a {
+    margin: 1px;
 }
 
 .download-app .microsoftstore {
@@ -219,24 +237,44 @@
 }
 
 .footer {
-    width: 358px;
-    height: 69px;
+   
+    width: 390px;
+    height: 95px;
+    margin:auto; 
+   
+    flex-wrap: nowrap;
+    padding: 24px 16px 61px 16px;  
+
+
+
 }
 
 
-.sites {
-    
+.site {
     display: flex;
-    gap: 15.8px;
-    text-decoration: none;
-    text-decoration: #8E8E8E;
-    box-sizing: border-box;
+    justify-content: flex-start;
+}
+
+.sites-link {
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
     
 }
 
-
+.sites-link a {
+    text-decoration: none;
+    color: #8E8E8E;
+    justify-content: space-between;
+    
+}
 
 .copyright {
+    margin-top: 35px;
+    margin-left: 70px;
     text-align: center;
     display: inline-flex;
+    flex-wrap: wrap-reverse;
+    
+
 }
